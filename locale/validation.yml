@@ -1,0 +1,82 @@
+validation:
+  accepted: "Du må akseptere :attribute"
+  active_url: ":attribute er ikke en gyldig URL."
+  after: ":attribute må være en dato etter :date."
+  after_or_equal: ":attribute må være en dato etter eller lik :date."
+  alpha: ":attribute kan bare inneholde bokstaver."
+  alpha_dash: ":attribute kan bare inneholde bokstaver, tall, og bindestreker."
+  alpha_num: ":attribute kan bare inneholde tall og bokstaver."
+  array: ":attribute må være en del av en matrise (Array)"
+  before: ":attribute må være en dato tidligere enn :date."
+  before_or_equal: ":attribute må være en dato før eller lik :date."
+  between:
+    numeric: ":attribute må være mellom :min og :max."
+    file: ":attribute må være mellom :min og :max kilobyte."
+    string: ":attribute må være mellom :min og :max tegn."
+    array: ":attribute må ha mellom :min og :max elementer."
+  boolean: ":Feltet attribute må enten være sant eller usant."
+  confirmed: "Bekreftelsen :attribute samsvarer ikke."
+  date: ":attribute er ikke en gyldig dato."
+  date_format: ":attribute samsvarer ikke med :other."
+  different: "Verdien :attribute og :other kan ikke være den samme."
+  digits: ":attribute må inneholde :digits tall."
+  digits_between: ":attribute må ha en verdi mellom :min og :max tall."
+  dimensions: ":attribute har ugyldige dimensjoner."
+  distinct: "Feltet :attribute har en duplikatverdi."
+  email: ":attribute er ikke en gyldig e-post."
+  exists: "den valgte :attribute er ugyldig."
+  file: ":attribute må være en fil."
+  filled: "Feltet :attribute kan ikke være tomt."
+  image: ":attribute må være et bilde."
+  in: "Valgte :attribute er ugyldig."
+  in_array: "Feltet :attribute finnes ikke i :other."
+  integer: ":attribute må være et heltall (integer)"
+  ip: ":attribute må være en gyldig IP-addresse."
+  ipv4: ":attribute må være en gyldig IPv4 -addresse."
+  ipv6: ":attribute må være en gyldig IPv6-addresse."
+  json: ":attribute må være en gyldig JSON-streng."
+  max:
+    numeric: ":attribute kan ikke være høyere enn :max."
+    file: ":attribute kan ikke være større enn :max kilobyte."
+    string: ":attribute kan ikke være lenger enn :max karakterer."
+    array: ":attribute kan ikke inneholde mer enn :max elementer."
+  mimes: ":attribute må være en fil av typen(e) :values."
+  mimetypes: ":attribute må være en fil av typen(e) :values."
+  min:
+    numeric: ":attribute må være minst :min."
+    file: ":attribute må være minst :min kilobyte."
+    string: ":attribute må inneholde minst :min tegn."
+    array: ":attribute må inneholde minst :min elementer."
+  not_in: "Valgte :attribute er ugyldig."
+  numeric: ":attribute må være et tall."
+  present: "Feltet:attribute må være i nåtid."
+  regex: "Formatet i :attribute er ugyldig."
+  required: "Feltet :attribute må fylles ut."
+  required_if: "Feltet :attribute må fylles ut når :other er :value."
+  required_unless: "Feltet :attribute må fylles ut med mindre :other er :values."
+  required_with: "Feltet :attribute må fylles ut når :values er tilstede."
+  required_with_all: "Feltet :attribute må fylles ut når :values er til stede."
+  required_without: "Feltet :attribute må fylles ut når :values ikke er til stede."
+  required_without_all: "Feltet :attribute må fylles ut når ingen av :values er til stede."
+  same: "Verdien :attribute må være lik :other"
+  size:
+    numeric: ":attribute må være :size."
+    file: ":attribute må være :size kilobyte."
+    string: ":attribute må være :size tegn."
+    array: ":attribute må inneholde :size elementer."
+  string: ":attribute må inneholde en streng-verdi."
+  timezone: ":attribute må være en gyldig tidssone."
+  unique: ":attribute er allerede tatt."
+  uploaded: "Kunne ikke laste opp :attribute"
+  url: "Formatet :attribute er ugyldig."
+
+  attributes:
+    username: brukernavn
+    password: passord
+    email: e-post
+    title: tittel
+    content: innhold
+    name_singular: navn entall
+    name_plural: navn flertall
+    tag_count_primary: antall kategoriemner
+    tag_count_secondary: antall løsemner

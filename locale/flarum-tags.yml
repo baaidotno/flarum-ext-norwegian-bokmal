@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Farge
+      delete_tag_button: Slett emne
+      delete_tag_confirmation: "Er du sikker på at du vil slette dette emnet? Diskusjonene vil IKKE bli slettet."
+      description_label: Beskrivelse
+      hide_label: Fjern fra Alle Diskusjoner
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Permalenke
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Endre listen med tilgjengelige emner for å organisere diskusjoner.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Tillat endring av emner
+      restrict_by_tag_heading: Begrens per emne
+      tag_discussions_label: Emnediskusjoner
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " t.o.m. "
+      required_primary_heading: Påkrevd anntall kategoriemner
+      required_primary_text: Skriv inn det minimale og maksimale antallet kategoriemner en diskusjon kan legges til.
+      required_secondary_heading: Påkrevd antall løsemner
+      required_secondary_text: Skriv inn det minimale og maksimale antallet løsemner en diskusjon kan legges til.
+      title: Emnennstillinger
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Emner brukes for å kategorisere diskusjoner. Kategoriemner er tradisjonelle forumkategorier som kan ha et tostegs hierarki. Løsemner har ikke hierarki eller rekkefølge, og er nyttig for mikrokategorisering."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Kategoriemner
+      secondary_heading: Løsemner
+      settings_button: Innstillinger
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Velg et kategoriemne|Velg {count} kategoriemner"
+      choose_secondary_placeholder: "Velg et løsemne|Velg {count} løsemner"
+      edit_title: "Endre emner for {title}"
+      submit_button: => core.ref.okay
+      title: Velg emner for din diskusjon
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Velg emner
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Endre emner
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Mer...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Mangler emner
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} la til {tagsAdded}."
+      added_and_removed_tags_text: "{username} la til {tagsAdded} og fjernet {tagsRemoved}."
+      removed_tags_text: "{username} fjernet {tagsRemoved}."
+      tags_text: "{tags} emne|{tags} emner"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Fjernet
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Nytt emne
+    name: Navn
+    tags: Emner
